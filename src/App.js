@@ -36,7 +36,7 @@ function App() {
       if(todo.id === id) {
         todo.important = !todo.important
       }
-      return todo
+      return todo;
     })
 
     setTodos(updatedTodos)
