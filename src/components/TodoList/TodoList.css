@@ -1,0 +1,9 @@
+.goal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.emptytodo {
+  text-align: center;
+  color: #be17a0;
+}
