@@ -1,0 +1,16 @@
+.goal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.emptytodo {
+  text-align: center;
+  color: #be17a0;
+}
+div {
+  text-align: center;
+}
+.Button_button__d3kAf .del{
+  background: #ff0000;
+}
+

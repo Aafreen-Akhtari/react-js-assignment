@@ -1,0 +1,27 @@
+.goal-item {
+  margin: 1rem 0;
+  background: #8b005d;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  color: white;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action-icons {
+  background-color: #ac3b61;
+  height: 30px;
+  color: white;
+  border-radius: 4px;
+  width: 50px;
+  border: none;
+  margin: 0px 2px;
+}
+.status {
+  text-decoration-line: line-through;
+}
+.checkbox {
+  margin-right: 5px;
+  padding: 15px;
+}
