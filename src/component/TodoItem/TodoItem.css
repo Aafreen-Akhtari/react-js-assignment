@@ -8,20 +8,19 @@
   display: flex;
   justify-content: space-between;
 }
-
-.action-icons {
+.action-icons{
   background-color: #ac3b61;
   height: 30px;
   color: white;
   border-radius: 4px;
   width: 50px;
-  border: none;
-  margin: 0px 2px;
+  border:none;
+  margin: 0PX 2px ;
 }
-.status {
-  text-decoration-line: line-through;
+.status{
+  text-decoration-line: line-through; 
 }
-.checkbox {
+.checkbox{
   margin-right: 5px;
   padding: 15px;
 }

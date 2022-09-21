@@ -11,7 +11,7 @@ import {
 import "./TodoItem.css";
 
 const TodoItem = (props) => {
-  const { id, title } = props.todoItem;
+  const { id, title, completed } = props.todoItem;
   const selected = useSelector((state) => state.todoReducers.selected);
 
   const dispatch = useDispatch();
@@ -39,7 +39,7 @@ const TodoItem = (props) => {
   };
   return (
     <li className="goal-item">
-      <span>
+      <span className={completed ? "status" : ""}>
         <input
           type="checkbox"
           className="checkbox"
