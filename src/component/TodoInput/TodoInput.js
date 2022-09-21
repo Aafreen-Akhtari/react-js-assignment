@@ -52,7 +52,7 @@ const TodoInput = (props) => {
         <label>Course Goal</label>
         <input type="text" onChange={goalInputChangeHandler} value={text} />
       </div>
-      <Button type="submit">Add Goal</Button>
+      <Button type="submit">{selected ? "Edit" : "Add Goal"}</Button>
       {selected && (
         <Button type="button" onClick={cancelHandler}>
           Cancel
